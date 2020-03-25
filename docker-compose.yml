@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+
+  php:
+    image: adrianharabula/php7-with-oci8
+    volumes:
+      - "C:/Users/RZANOTTA/Desktop/volume:/var/www/html"
+    ports:
+      - "81:80"
+
+volumes:
+  db_data:
